@@ -1,0 +1,23 @@
+{
+  "name": "ui-api-playwright-e2e-automation-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshwinAutomation/UI-API-Playwright-E2E-Automation-Framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AshwinAutomation/UI-API-Playwright-E2E-Automation-Framework/issues"
+  },
+  "homepage": "https://github.com/AshwinAutomation/UI-API-Playwright-E2E-Automation-Framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6"
+  }
+}
