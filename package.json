@@ -3,7 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test_dev": "cross-env ENV_NAME=dev npx playwright test",
+    "test_uat": "cross-env ENV_NAME=uat npx playwright test",
+    "test_prod": "cross-env ENV_NAME=prod npx playwright test",
+    "test_dev_cr_hl": "cross-env ENV_NAME=dev npx playwright test --project=chromium",
+    "test_dev_fr_hl": "cross-env ENV_NAME=dev npx playwright test --project=firefox",
+    "test_dev_safari_hl": "cross-env ENV_NAME=dev npx playwright test --project=safari",
+    "test_dev_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed",
+    "test_dev_fr_hd": "cross-env ENV_NAME=dev npx playwright test --project=firefox --headed",
+    "test_dev_safari_hd": "cross-env ENV_NAME=dev npx playwright test --project=safari --headed"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AshwinAutomation/UI-API-Playwright-E2E-Automation-Framework.git"
@@ -18,6 +28,12 @@
   "homepage": "https://github.com/AshwinAutomation/UI-API-Playwright-E2E-Automation-Framework#readme",
   "devDependencies": {
     "@playwright/test": "^1.65.0",
+    "@types/crypto-js": "^4.2.2",
     "@types/node": "^26.6.6"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^18.0.10"
   }
 }
