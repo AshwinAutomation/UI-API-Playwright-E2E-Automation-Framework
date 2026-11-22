@@ -1,0 +1,250 @@
+[
+ {
+  "time": 1795331124865,
+  "duration": 38099.792,
+  "passed": 5,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    8399
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    6956
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    7291
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    9347
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "p",
+    11037
+   ]
+  }
+ },
+ {
+  "time": 1795331787667,
+  "duration": 62949.965,
+  "passed": 4,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    17143
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    8584
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    5974
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    6009
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "f",
+    40539
+   ]
+  }
+ },
+ {
+  "time": 1795331915670,
+  "duration": 77890.23700000001,
+  "passed": 4,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    20322
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    16071
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    6993
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    5634
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "f",
+    52608
+   ]
+  }
+ },
+ {
+  "time": 1795332680899,
+  "duration": 58431.135,
+  "passed": 4,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    9229
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    8472
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    7318
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    5506
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "f",
+    43387
+   ]
+  }
+ },
+ {
+  "time": 1795333036741,
+  "duration": 86682.087,
+  "passed": 4,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    8362
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    15786
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    10746
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    5960
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "f",
+    40255
+   ]
+  }
+ },
+ {
+  "time": 1795333191200,
+  "duration": 64353.047,
+  "passed": 4,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    17514
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    7300
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    6038
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    12619
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "f",
+    41553
+   ]
+  }
+ },
+ {
+  "time": 1795333303979,
+  "duration": 43124.977999999996,
+  "passed": 5,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    8235
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    7805
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    6577
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    5552
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "p",
+    9527
+   ]
+  }
+ },
+ {
+  "time": 1795333405320,
+  "duration": 41233,
+  "passed": 5,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    15783
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    7575
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    6603
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    6098
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "p",
+    11050
+   ]
+  }
+ }
+]

@@ -1,5 +1,6 @@
 import { defineConfig, devices } from "@playwright/test";
 import dotenv from "dotenv";
+import reportingLabs from './reporting-labs.config';
 
 /**
  * Read environment variables from file.
@@ -16,7 +17,16 @@ dotenv.config({
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  /*For all spec files execution
+   */
+  globalTimeout: 3000000,
+  /*Each test timeout or use settimeout in test level*/
   timeout: 60 * 1000,
+
+  /*Assertion timeout*/
+  expect: {
+    timeout: 30000,
+  },
   testDir: "./tests",
   /* Run tests in files in parallel */
   fullyParallel: false,
@@ -25,9 +35,12 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 1 : 2,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [["html", { open: "always" }]],
+  reporter: [["html", { open: "always" }],
+   ['reporting-labs', reportingLabs]
+
+],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
@@ -37,6 +50,8 @@ export default defineConfig({
     screenshot: "only-on-failure",
     video: "retain-on-failure",
     trace: "on-first-retry",
+    actionTimeout: 30000,
+    navigationTimeout: 30000,
   },
 
   /* Configure projects for major browsers */

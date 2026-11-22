@@ -46,3 +46,15 @@ SECRET_KEY=<anyname> npm run test_dev_cr_hd
 SECRET_KEY=credential_dev npm run test_dev_cr_hl
 
 
+# Report Generation:
+=====================
+Report Labs:
+step 1: Go to below link
+https://www.npmjs.com/package/reporting-labs
+
+Step 2: install below command
+npm i -D reporting-labs@latest
+
+Step 3: Create the config file (reporting-labs.config.ts)
+use below command:
+npx reporting-labs init
