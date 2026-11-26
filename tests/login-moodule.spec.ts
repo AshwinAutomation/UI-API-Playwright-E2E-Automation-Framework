@@ -14,21 +14,21 @@ test.describe("Login Test for OranageHRM ", () => {
   //   await userPage.logout();
   // });
 
-    test("[Login]-verify that the user can not login with invalid username.", async ({ page, loginPage, commonUtils }) => {
+    test("[Login]-verify that the user can not login with invalid username.",{tag: '@UI'}, async ({ loginPage, commonUtils }) => {
     const decryptedPassword = commonUtils.decryptData(process.env.PASSWORD);
     await loginPage.login(loginModuleData["wrong-username"], decryptedPassword);
     await expect(loginPage.invalidCredentialsErrorPopup).toBeVisible();
     await expect(loginPage.invalidCredentialsErrorPopup).toHaveText("Invalid credentials");
   });
 
-  test("[Login]-verify that the user can not login with invalid Password.", async ({ page, loginPage, commonUtils }) => {
+  test("[Login]-verify that the user can not login with invalid Password.",{tag:'@UI'}, async ({ loginPage, commonUtils }) => {
     const decryptedUsername = commonUtils.decryptData(process.env.USER_NAME);
     await loginPage.login(decryptedUsername, loginModuleData["wrong-password"]);
     await expect(loginPage.invalidCredentialsErrorPopup).toBeVisible();
     await expect(loginPage.invalidCredentialsErrorPopup).toHaveText("Invalid credentials");
   });
 
-    test("[Login]-verify that the user can not login with invalid username and password.", async ({ page, loginPage, commonUtils }) => {
+    test("[Login]-verify that the user can not login with invalid username and password.", {tag:'@UI'},async ({loginPage, commonUtils }) => {
     const decryptedUsername = commonUtils.decryptData(process.env.USER_NAME);
     const decryptedPassword = commonUtils.decryptData(process.env.PASSWORD);
     await loginPage.login(loginModuleData["wrong-username"], loginModuleData["wrong-password"]);

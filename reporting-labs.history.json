@@ -246,5 +246,149 @@
     11050
    ]
   }
+ },
+ {
+  "time": 1795607364995,
+  "duration": 706.7520000000002,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 0,
+  "tests": {}
+ },
+ {
+  "time": 1795607571095,
+  "duration": 227.31600000000003,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 0,
+  "tests": {}
+ },
+ {
+  "time": 1795607746996,
+  "duration": 5963.137,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 4,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "f",
+    1949
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "s",
+    0
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "s",
+    0
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "s",
+    0
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "s",
+    0
+   ]
+  }
+ },
+ {
+  "time": 1795607867024,
+  "duration": 40672.725999999995,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 4,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "f",
+    37751
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "s",
+    0
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "s",
+    0
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "s",
+    0
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "s",
+    0
+   ]
+  }
+ },
+ {
+  "time": 1795607962270,
+  "duration": 95718.926,
+  "passed": 3,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    18070
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    17265
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "f",
+    3609
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    14672
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "f",
+    34598
+   ]
+  }
+ },
+ {
+  "time": 1795674862478,
+  "duration": 54616.877,
+  "passed": 5,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    9468
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    10163
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    7774
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    9970
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "p",
+    10425
+   ]
+  }
  }
 ]
