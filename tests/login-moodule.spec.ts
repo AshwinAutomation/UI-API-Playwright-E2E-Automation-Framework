@@ -1,7 +1,7 @@
 import { test } from "../fixtures/common-fixture";
 import loginModuleData from "../data/login-module-data.json";
 import { expect } from "@playwright/test";
-test.describe("Login Test for OranageHRM ", () => {
+test.describe("Login Test for OranageHRM ",{tag: '@Invalid login',annotation:{type: "story Link" , description: "story url"}},() => {
   test.use({ storageState: {
     cookies: [],
     origins: []

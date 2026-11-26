@@ -390,5 +390,36 @@
     10425
    ]
   }
+ },
+ {
+  "time": 1795682133120,
+  "duration": 47016.668,
+  "passed": 5,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 5,
+  "tests": {
+   "setup::tests/global.setup.ts::Global setup for Auto-login": [
+    "p",
+    8778
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username.": [
+    "p",
+    7639
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid Password.": [
+    "p",
+    8888
+   ],
+   "chromium::tests/login-moodule.spec.ts::Login Test for OranageHRM  › [Login]-verify that the user can not login with invalid username and password.": [
+    "p",
+    6566
+   ],
+   "chromium::tests/pim-module.spec.ts::PIM Module Test for OranageHRM  › [PIM]-verify that the user can navigate to PIM page and add new employee details.": [
+    "p",
+    9431
+   ]
+  }
  }
 ]

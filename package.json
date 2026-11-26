@@ -13,7 +13,9 @@
     "test_dev_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed",
     "test_dev_fr_hd": "cross-env ENV_NAME=dev npx playwright test --project=firefox --headed",
     "test_dev_safari_hd": "cross-env ENV_NAME=dev npx playwright test --project=safari --headed",
-    "test_dev_tags_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed --grep=@UI"
+    "test_dev_ui_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed --grep=@UI --ui",
+    "test_dev_tags_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed --grep=@UI",
+    "test_dev_only_failed_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed --grep=@UI --last-failed"
   },
   "repository": {
     "type": "git",

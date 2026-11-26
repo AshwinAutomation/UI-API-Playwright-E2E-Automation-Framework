@@ -596,3 +596,7 @@ ENV_NAME=prod -> env-files/.env.prod
 ```
 
 When `ENV_NAME` is omitted, Playwright loads `env-files/.env.dev`.
+
+
+### Execution
+SECRET_KEY=credential_dev npm run test_dev_tags_cr_hd
